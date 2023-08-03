@@ -3,9 +3,10 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { nav_text } from "@/app/utils/fonts";
 import { Icon } from "@iconify/react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-	const [currentPage, setCurrentPage] = useState(location.pathname);
+	const [currentPage, setCurrentPage] = useState(usePathname());
 	const [showNav, setShowNav] = useState(false);
 
 	return (
