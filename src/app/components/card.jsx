@@ -15,8 +15,9 @@ export default function Card(props) {
 					src={props.data.thumbnail}
 					alt="Project Image"
 					layout="instrinsic"
-					width={618}
-					height={662}
+					fill
+					// width={618}
+					// height={662}
 				/>
 			</div>
 
