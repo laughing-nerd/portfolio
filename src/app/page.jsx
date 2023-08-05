@@ -12,7 +12,7 @@ export default function Home() {
 	const [toggleModal, setToggleModal] = useState(false);
 
 	const downloadResume = () => {
-		const url = "https://drive.google.com/file/d/10J8COdjY7Z9qdZslJcGAXlzh6XboO43g/view?usp=sharing";
+		const url = "";
 		let aTag = document.createElement("a");
 		aTag.href = url;
 		aTag.setAttribute("target", "_blank");
