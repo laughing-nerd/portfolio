@@ -8,7 +8,7 @@ const achieve = [
 		thumbnail: "/achievements/hackerrank.png"
 	},
 	{
-		achievement: "Completed 3 milesones in Google Cloud Facilitator Programme, 2022",
+		achievement: "Completed 3 milestones in Google Cloud Facilitator Programme, 2022",
 		thumbnail: "/achievements/gcloud.png"
 
 	}
