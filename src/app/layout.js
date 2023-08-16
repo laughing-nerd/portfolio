@@ -6,6 +6,7 @@ import './globals.css'
 export const metadata = {
 	title: 'Rituraj Paul | Portfolio',
 	description: 'This is my portfolio. Welcome to my world!',
+  keywords: ["developer", "portfolio", "MERN developer", "Next.js developer", "Linux Enthusiast", "Full stack developer", "programmer", "vercel"]
 }
 
 export default function RootLayout({ children }) {
