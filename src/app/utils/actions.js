@@ -18,7 +18,18 @@ export async function handleSubmit(formData) {
 		)}\n\n${formData.get("subject")}`,
 	};
 
-	transporter.sendMail(info, (error, result) => {
-		if (error) console.log(error);
-	});
+	// transporter.sendMail(info, (error, result) => {
+	// 	if (error) console.log(error);
+	// });
+
+  await new Promise((resolve, reject) => {
+    transporter.sendMail(info, (err, data) => {
+      if (err) {
+        console.error(err);
+        reject(err);
+      } else {
+        resolve(data);
+      }
+    });
+  });
 }
