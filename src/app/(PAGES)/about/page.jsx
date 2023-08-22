@@ -22,22 +22,6 @@ export default function About() {
 		background:
 			"linear-gradient(45deg, rgba(19,20,36,1) 0%, rgba(50,50,50,1) 35%, rgba(72,78,79,1) 100%)",
 	};
-
-	const handleSkills = (element) => {
-		return (
-			<li className={styles.honeycomb_cell}>
-				<Image
-					className={styles.honeycomb_cell_image}
-					src={element.thumbnail}
-					alt="Skill Image"
-					width={220}
-					height={220}
-				/>
-				<div className={styles.honeycomb_cell_title}>{element.skill}</div>
-			</li>
-		);
-	};
-
 	const showTimeline = (education) => {
 		return (
 			<VerticalTimelineElement
