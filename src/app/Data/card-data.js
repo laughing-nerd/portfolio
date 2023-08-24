@@ -1,4 +1,11 @@
 export const data = [
+  	{
+		"title": "npx make-rest-api",
+		"description": "A REST API starter that will generate all the necessary files required to create REST API. It has support for MongoDB out of the box. The ultimate goal of this project is to prevent developers from creating a REST API from scratch. Instead, they can focus on configuring the REST API according to their needs.",
+		"thumbnail": "/projects/project_npx.png",
+		"website": "https://www.npmjs.com/package/make-rest-api",
+		"github": "https://www.github.com/laughing-nerd/make-rest-api"
+	},
 	{
 		"title": "Cowie, Discord bot",
 		"description": "This is Cowie, an anime discord bot built with JavaScript. It can post random anime images, clips, memes and can even play music. It's music quality is as good as the other music bots available on the internet. Moderation features are yet not available",
