@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
 					<div className="parent">
 					<div className="top_left_image">
 						<Image
-							src="/home/top-left.png"
+							src="/home/top-left.webp"
 							alt="top-left"
 							width={400}
 							height={400}
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 					</div>
 					<div className="bottom_right_image">
 						<Image
-							src="/home/bulb.png"
+							src="/home/bulb.webp"
 							alt="bottom-right"
 							width={256}
 							height={392}
